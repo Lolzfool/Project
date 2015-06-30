@@ -1,8 +1,8 @@
 var userChoice = prompt("AI wants to play a game of rock paper scissors. Ur playing for $1000 and a free iphone");
 var computerChoice = Math.random();
-if (computerChoice < 0.34) {
+if (computerChoice < 0.33) {
     computerChoice = "rock";
-} else if (computerChoice <= 0.67) {
+} else if (computerChoice <= 0.66) {
     computerChoice = "paper";
 } else if (computerChoice <= 1.0) {
     computerChoice = "scissors";
