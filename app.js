@@ -1,18 +1,14 @@
-var userChoice = prompt("AI wants to play a game of rock paper scissors lizard spock.");
+var userChoice = prompt("AI wants to play a game of rock paper scissors. Ur playing for $1000 and a free iphone");
 var computerChoice = Math.random();
-if (computerChoice < 0.2) {
+if (computerChoice < 0.34) {
     computerChoice = "rock";
-} else if (computerChoice <= 0.4) {
+} else if (computerChoice <= 0.67) {
     computerChoice = "paper";
-} else if (computerChoice <= 0.6) {
+} else if (computerChoice <= 1.0) {
     computerChoice = "scissors";
-} else if (computerChoice <= 0.8) {
-    computerChoice = "lizard";
-} else {
-    computerChoice = "spock";
 }
 
-alert("AI has read your mind and decided to choose " + computerChoice);
+alert("AI has read your mind and decided to choose the following: " + computerChoice);
 
 var compare = function(choice1, choice2){
     if (choice1 === choice2) {
@@ -57,31 +53,24 @@ else if (choice1 === "scissors") {
         alert("Spock vaporizes scissors");
     }
 }
+//otherwise...
+else
+    alert("You didnt put something legit so you lose");
+    alert("U GET A FREE BACKDOOR VIRUS");
+    alert("U GET A FREE BACKDOOR VIRUS");
+    alert("U GET A FREE BACKDOOR VIRUS");
+    alert("U GET A FREE BACKDOOR VIRUS");
+    alert("U GET A FREE BACKDOOR VIRUS");
+    alert("U GET A FREE BACKDOOR VIRUS");
+    alert("U GET A FREE BACKDOOR VIRUS");
+    alert("U GET A FREE BACKDOOR VIRUS");
+    alert("U GET A FREE BACKDOOR VIRUS");
+    alert("U GET A FREE BACKDOOR VIRUS");
+    alert("U GET A FREE BACKDOOR VIRUS");
+    alert("U GET A FREE BACKDOOR VIRUS");
+    alert("U GET A FREE BACKDOOR VIRUS");
+    alert("U GET A FREE BACKDOOR VIRUS");
+    alert("U GET A FREE BACKDOOR VIRUS");
 
-//If the user chose lizard...
-else if (choice1 === "lizard") {
-    if (choice2 === "scissors") {
-        alert("Scissors decapitates Lizard");
-    } else if (choice2 === "rock") {
-        alert("Rock smashes Lizard");
-    } else if (choice2 === "paper") {
-        alert("Lizard eats paper");
-    } else {
-        alert("Lizard poisons Spock");
-    }
-}
-
-//If the user chose spock...
-else if (choice1 === "spock") {
-    if (choice2 === "scissors") {
-        alert("Spock vaporizes scissors");
-    } else if (choice2 === "rock") {
-        alert("Spock vaporizes rock");
-    } else if (choice2 === "lizard") {
-        alert("Lizard poisons Spock");
-    } else {
-        alert("Paper disproves Spock");
-    }
-}
 };
 compare(userChoice, computerChoice);
