@@ -11,3 +11,7 @@ p#entertexthere {
 p.entertexthere {
 	color:yellow;
 }
+div.static {
+	position: static;
+	border: 10px solid #66CCFF;
+}
