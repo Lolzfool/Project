@@ -66,6 +66,17 @@ else if (choice1 === "nuke") {
     }
 }
 
+else if (choice1 === "Calcite") {
+    if (choice2 === "paper") {
+        alert("waow");
+    } else if (choice2 === "rock") {
+        alert("waow");
+    } else if (choice2 === "scissors") {
+        alert("waow");
+    } else {
+        alert("waow");
+    }
+}
 else
     alert("you didnt put something legit so like you lose lol");
 
