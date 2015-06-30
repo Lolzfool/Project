@@ -55,22 +55,8 @@ else if (choice1 === "scissors") {
 }
 //otherwise...
 else
-    alert("You didnt put something legit so you lose");
-    alert("U GET A FREE BACKDOOR VIRUS");
-    alert("U GET A FREE BACKDOOR VIRUS");
-    alert("U GET A FREE BACKDOOR VIRUS");
-    alert("U GET A FREE BACKDOOR VIRUS");
-    alert("U GET A FREE BACKDOOR VIRUS");
-    alert("U GET A FREE BACKDOOR VIRUS");
-    alert("U GET A FREE BACKDOOR VIRUS");
-    alert("U GET A FREE BACKDOOR VIRUS");
-    alert("U GET A FREE BACKDOOR VIRUS");
-    alert("U GET A FREE BACKDOOR VIRUS");
-    alert("U GET A FREE BACKDOOR VIRUS");
-    alert("U GET A FREE BACKDOOR VIRUS");
-    alert("U GET A FREE BACKDOOR VIRUS");
-    alert("U GET A FREE BACKDOOR VIRUS");
-    alert("U GET A FREE BACKDOOR VIRUS");
+    alert("You didnt put something legit so you lose lol u suck");
+
 
 };
 compare(userChoice, computerChoice);
