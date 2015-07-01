@@ -139,4 +139,4 @@ else;
 
 };
 compare(userChoice, computerChoice);
->>>>>>> Stashed changes
+
