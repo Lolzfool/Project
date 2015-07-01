@@ -1,4 +1,3 @@
-
 var userChoice;
 var computerChoice;
 
@@ -12,14 +11,15 @@ document.getElementById("rock").onclick = function(){
         alert("This is a tie");
     }
     else if(comp_choice === "rock")
+{
     
-
-};//do something}
+}//do something}
 document.getElementById("paper").onclick = function(){
     userChoice = "paper";
-    if(comp_choice === "paper"){
+    if(comp_choice === "paper");
         alert("This is a tie");
-    }
+
+    };
 
 
 
@@ -46,8 +46,6 @@ var computerPick = function(){
     } else {
         comp_choice = "scissors";
     }
-<<<<<<< Updated upstream
-};
 
 
 // var compare = function(choice1, choice2){
@@ -99,7 +97,7 @@ var computerPick = function(){
 
 // };
 // compare(userChoice, computerChoice);
-=======
+
 }
 
 
