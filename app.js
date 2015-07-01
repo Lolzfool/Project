@@ -1,16 +1,25 @@
+
 var userChoice;
 var computerChoice;
+
+//var userChoice =  ("Lets play an game waow");
+
 
 document.getElementById("rock").onclick = function(){
     userChoice = "rock";
     if(comp_choice === "rock"){
+        alert("AI has chosen rock");
         alert("This is a tie");
     }
+    else if(comp_choice === "rock")
     
 
 };//do something}
 document.getElementById("paper").onclick = function(){
     userChoice = "paper";
+    if(comp_choice === "paper"){
+        alert("This is a tie");
+    }
 
 
 
@@ -35,6 +44,7 @@ var computerPick = function(){
     } else {
         comp_choice = "scissors";
     }
+<<<<<<< Updated upstream
 };
 
 
@@ -87,3 +97,15 @@ var computerPick = function(){
 
 // };
 // compare(userChoice, computerChoice);
+=======
+}
+
+
+else;
+    alert("you didnt put something legit so like you lose lol");
+
+
+
+};
+compare(userChoice, computerChoice);
+>>>>>>> Stashed changes
