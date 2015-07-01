@@ -1,12 +1,33 @@
-var userChoice = prompt("AI wants to play a game of rock paper scissors. Ur playing for $1000 and a free iphone");
-var computerChoice = Math.random();
+var userChoice = ("AI wants to play a game of rock paper scissors. Ur playing for $1000 and a free iphone");
+
+var rock = function(){
+    userChoice = "rock";
+
+};
+
+var scissors = function(){
+    userChoice = "scissors";
+};
+
+var paper = function(){
+    userChoice = "paper";
+};
+
+
+
+
+
+var computerPick = function(){
+
+    computerChoice = Math.random();
 if (computerChoice < 0.33) {
     computerChoice = "rock";
 } else if (computerChoice <= 0.66) {
     computerChoice = "paper";
-} else if (computerChoice <= 1.0) {
+} else {
     computerChoice = "scissors";
 }
+};
 
 alert("AI has read your mind and decided to choose the following: " + computerChoice);
 
@@ -14,6 +35,9 @@ var compare = function(choice1, choice2){
     if (choice1 === choice2) {
         alert("its a tie BUT WAIT! ur actually playing BlackJack and ur not the dealer so u lose all ur money and u go into depression because u lost ur money and now u work at mcdolands for 21 years until you have enough money to play AI again");
     }
+
+
+
 
 
 else if (choice1 === "rock") {
@@ -54,29 +78,6 @@ else if (choice1 === "scissors") {
     }
 }
 
-else if (choice1 === "nuke") {
-    if (choice2 === "paper") {
-        alert("nuke blows up paper");
-    } else if (choice2 === "rock") {
-        alert("nuke blows up rock");
-    } else if (choice2 === "scissors") {
-        alert("nuke blows up scissors");
-    } else {
-        alert("Spock vaporizes scissors");
-    }
-}
-
-else if (choice1 === "Calcite") {
-    if (choice2 === "paper") {
-        alert("waow");
-    } else if (choice2 === "rock") {
-        alert("waow");
-    } else if (choice2 === "scissors") {
-        alert("waow");
-    } else {
-        alert("waow");
-    }
-}
 else
     alert("you didnt put something legit so like you lose lol");
 
