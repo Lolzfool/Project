@@ -26,7 +26,9 @@ document.getElementById("paper").onclick = function(){
 };//do something}
 document.getElementById("scissors").onclick = function(){
     userChoice = "scissors";
-
+    if(comp_choice === "sissors"){
+        alert("This is a tie");
+    }
 
 
 };
