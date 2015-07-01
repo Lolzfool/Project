@@ -2,20 +2,20 @@
 
 
  body {
-	background-color:green;
+	background-color:blue;
 }	
 p {
-	color:purple
+	color:black
 }
 p#entertexthere {
-	color:orange;
+	color:blue;
 }
 
 p.entertexthere {
-	color:yellow;
+	color:black;
 }
 img {
-	border: 10px solid #66CCFF;
+	border: 10px solid #11A4ED;
 }
 
 
