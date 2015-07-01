@@ -1,4 +1,4 @@
-var userChoice = ("AI wants to play a game of rock paper scissors. Ur playing for $1000 and a free iphone");
+var userChoice = ("Lets play an game waow");
 
 var rock = function(){
     userChoice = "rock";
@@ -11,6 +11,10 @@ var scissors = function(){
 
 var paper = function(){
     userChoice = "paper";
+};
+
+var nuke = function(){
+    userChoice = "nuke";
 };
 
 
