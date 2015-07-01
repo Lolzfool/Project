@@ -11,16 +11,31 @@ document.getElementById("rock").onclick = function(){
         alert("AI has chosen rock");
         alert("This is a tie");
     }
-    else if(comp_choice === "rock")
+    else if(comp_choice === "paper"){
+        alert("AI has chosen paper");
+        alert("You win! :O");
+    }
+    else {
+        alert("AI has chosen scissors");
+        alert("You lose XD");
+    }
     
 
 };//do something}
 document.getElementById("paper").onclick = function(){
     userChoice = "paper";
     if(comp_choice === "paper"){
+        alert("AI has chosen paper");
         alert("This is a tie");
     }
-
+    else if(comp_choice === "rock"){
+        alert("AI has chosen rock");
+        alert("You win :D");
+    }
+    else {
+        alert("AI has chosen scissors");
+        alert("You lose :S");
+    }
 
 
 };//do something}
@@ -46,7 +61,7 @@ var computerPick = function(){
     } else {
         comp_choice = "scissors";
     }
-<<<<<<< Updated upstream
+
 };
 
 
