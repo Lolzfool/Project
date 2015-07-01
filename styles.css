@@ -1,19 +1,14 @@
-/*This is comment*/
+<<<<<<< HEAD
+body {
+=======
+/*waow waow waow waow waow comment muhc*/
 
 
  body {
+>>>>>>> origin/master
 	background-color:#F5410A;
 }	
-p {
-	color:black
-}
-p#flag_of_doom {
-	color:orange;
-}
 
-p#all_hail_president_zane {
-	color:black;
-}
 img {
 	border: 10px solid #11A4ED;
 }
