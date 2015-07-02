@@ -6,15 +6,15 @@ var computerChoice;
 
 
 
-document.getElementById("rock").onclick = function(){
+button.onclick = function(){
     userChoice = "rock";
-    if(comp_choice === "rock"){
+    if(comp_choice == userChoice){
         alert("AI has chosen rock");
         alert("This is a tie");
     }
 
 
-    else if(comp_choice === "paper"){
+    else if(comp_choice == "paper"){
         alert("AI has chosen paper");
         alert("You win! :O");
     }
@@ -25,20 +25,20 @@ document.getElementById("rock").onclick = function(){
 
     
 };//do something}
-document.getElementById("paper").onclick = function(){
+button.onclick = function(){
     userChoice = "paper";
 
-    if(comp_choice === "paper");
+    if(comp_choice == userChoice);
         alert("This is a tie");
 
     };
 
 
-    if(comp_choice === "paper"){
+    if(comp_choice == "paper"){
         alert("AI has chosen paper");
         alert("This is a tie");
     }
-    else if(comp_choice === "rock"){
+    else if(comp_choice == "rock"){
         alert("AI has chosen rock");
         alert("You win :D");
     }
@@ -50,13 +50,13 @@ document.getElementById("paper").onclick = function(){
 
 
 }//do something}
-document.getElementById("scissors").onclick = function(){
+button.onclick = function(){
     userChoice = "scissors";
-    if(comp_choice === "scissors"){
+    if(comp_choice == userChoice){
         alert("AI has chosen scissors");
         alert("This is a tie");
     }
-    else if(comp_choice === "paper"){
+    else if(comp_choice == "paper"){
         alert("AI has chosen paper");
         alert("You win :I");
     }
