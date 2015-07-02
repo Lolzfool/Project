@@ -4,16 +4,16 @@ var computerChoice;
 //var userChoice =  ("Lets play an game waow");
 
 
+
+
 document.getElementById("rock").onclick = function(){
     userChoice = "rock";
     if(comp_choice === "rock"){
         alert("AI has chosen rock");
         alert("This is a tie");
     }
-<<<<<<< HEAD
-    else if(comp_choice === "rock")
-{
-=======
+
+
     else if(comp_choice === "paper"){
         alert("AI has chosen paper");
         alert("You win! :O");
@@ -22,18 +22,18 @@ document.getElementById("rock").onclick = function(){
         alert("AI has chosen scissors");
         alert("You lose XD");
     }
->>>>>>> origin/master
+
     
-}//do something}
+};//do something}
 document.getElementById("paper").onclick = function(){
     userChoice = "paper";
-<<<<<<< HEAD
+
     if(comp_choice === "paper");
         alert("This is a tie");
 
     };
 
-=======
+
     if(comp_choice === "paper"){
         alert("AI has chosen paper");
         alert("This is a tie");
@@ -45,17 +45,25 @@ document.getElementById("paper").onclick = function(){
     else {
         alert("AI has chosen scissors");
         alert("You lose :S");
-    }
->>>>>>> origin/master
 
 
-};//do something}
+
+
+}//do something}
 document.getElementById("scissors").onclick = function(){
     userChoice = "scissors";
-    if(comp_choice === "sissors"){
+    if(comp_choice === "scissors"){
+        alert("AI has chosen scissors");
         alert("This is a tie");
     }
-
+    else if(comp_choice === "paper"){
+        alert("AI has chosen paper");
+        alert("You win :I");
+    }
+    else {
+        alert("AI has chosen rock");
+        alert("You lose :C");
+    }
 
 };
 
@@ -72,11 +80,10 @@ var computerPick = function(){
     } else {
         comp_choice = "scissors";
     }
-<<<<<<< HEAD
-=======
 
-};
->>>>>>> origin/master
+
+
+
 
 
 // var compare = function(choice1, choice2){
@@ -129,11 +136,11 @@ var computerPick = function(){
 // };
 // compare(userChoice, computerChoice);
 
-}
 
 
-else;
-    alert("you didnt put something legit so like you lose lol");
+
+//else;
+    //alert("you didnt put something legit so like you lose lol");
 
 
 
