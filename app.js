@@ -27,29 +27,26 @@ button.onclick = function(){
 };//do something}
 button.onclick = function(){
     userChoice = "paper";
-
-    if(comp_choice == userChoice);
-        alert("This is a tie");
-
-    };
-
-
-    if(comp_choice == "paper"){
-        alert("AI has chosen paper");
+    if(comp_choice == userChoice){
+        alert("AI has chose");
         alert("This is a tie");
     }
-    else if(comp_choice == "rock"){
+
+
+   else if(comp_choice == "rock"){
         alert("AI has chosen rock");
-        alert("You win :D");
+        alert("You win :D");   
     }
+
+
     else {
         alert("AI has chosen scissors");
         alert("You lose :S");
+    }
 
 
 
-
-}//do something}
+};//do something}
 button.onclick = function(){
     userChoice = "scissors";
     if(comp_choice == userChoice){
